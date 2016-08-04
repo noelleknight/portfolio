@@ -2,7 +2,9 @@
   color:red;
 }
 .bannerImg {
-  background-color: blue;
+  background-image: url("../images/type.jpg") no-repeat center;
+  width: 100%;
+  height: 200px;
 }
 .headName {
   width: 100%;
