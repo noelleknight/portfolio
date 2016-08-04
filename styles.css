@@ -1,3 +1,15 @@
 #red {
   color:red;
 }
+.bannerImg {
+  background-color: blue;
+}
+.headName {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  color: white;
+  background-color: black;
+  opacity: .5;
+  font-family: sans-serif;
+}
