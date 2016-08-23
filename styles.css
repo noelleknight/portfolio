@@ -5,12 +5,12 @@
   margin-top: 0;
   background-image: url("../images/type.jpg");
   width: 100%;
-  height: 200px;
-  /*position: relative;*/
+  height: 15em;
 }
 .headName {
+  float: left;
   margin: 0;
-  width: 100%;
+  /*width: 100%;*/
   /*position: fixed;*/
   top: 0;
   color: white;
@@ -19,6 +19,18 @@
   font-family: sans-serif;
 }
 #menu {
-  padding
+  padding: 10px;
   margin: 0;
+}
+#navMenu {
+  color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.navTabs {
+  display: inline-block;
+}
+.navBar {
+  float: left;
 }
