@@ -18,16 +18,25 @@
 }
 #navMenu {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
-.test {
-  margin-right:10px;
+.headSpace {
+  left: 0;
+  /*margin-right:10px;*/
   float:left;
 }
-.navContainer {
-  background-color: pink;
-  opacity: .5;
+.container {
   width: 100%;
   height: 3em;
+}
+.navTabs {
+  padding: 0px 10px 0px 10px;
+  float: left;
+  margin: 0;
+  top: 0;
+  color: white;
+  font-family: sans-serif;
+
+}
+.headMenu {
+  float: right;
 }
