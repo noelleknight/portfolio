@@ -9,3 +9,16 @@ header {
   height: 20em;
   opacity: 0.8;
 }
+.headMenu {
+  list-style: none;
+  margin: 0 auto;
+  padding-top: 2%;
+  color: white ;
+}
+.headName {
+float: left;
+}
+.navTabs {
+  padding: 1em;
+  float: right;
+}
