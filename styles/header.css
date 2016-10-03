@@ -1,1 +1,11 @@
+header {
+  background-color: black;
+  margin: 0 auto;
+}
 
+.headContainr {
+  background: url("../images/type.jpg") center no-repeat;
+  width: 100%;
+  height: 20em;
+  opacity: 0.8;
+}
