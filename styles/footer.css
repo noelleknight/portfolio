@@ -1,0 +1,15 @@
+footer {
+height: 5em;
+width: 100%;
+bottom: -10px;
+position: fixed;
+opacity: 0.5;
+
+
+}
+.footerDiv {
+  background-color: pink;
+  height: 100%;
+  width: 100%;
+  color: gray;
+}
