@@ -1,0 +1,10 @@
+body {
+  background-color: #fffbff;
+}
+.main {
+  margin: 0% 17% 0 17%;
+}
+#hello {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5em;
+}
