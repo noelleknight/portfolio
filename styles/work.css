@@ -1,6 +1,15 @@
 .workList {
+  margin-top: 2em;
   list-style: none;
 }
+
+.myWork {
+  margin: 0 15% 0 15%;
+}
 .folioImg {
-  width: 80em;
+  width: 288px;
+  height: 288px;
+}
+.one {
+  background-color:
 }
