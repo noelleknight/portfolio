@@ -25,3 +25,10 @@
 .stack li{
   display: inline-block;;
 }
+.description {
+  font-size: 1.2em;
+  font-family: 'Libre Franklin', sans-serif;
+}
+.boldTitle {
+  font-weight: bold;
+}
