@@ -1,15 +1,18 @@
-.workList {
-  margin-top: 2em;
-  list-style: none;
-}
 
-.myWork {
-  margin: 0 15% 0 15%;
+.itemContainer {
+  position: relative;
+  display: inline-block;
+
 }
 .folioImg {
-  width: 288px;
-  height: 288px;
+  position: relative;
+  float: left;
+  width: 40%;
 }
-.one {
-  background-color:
+.description {
+  width: 40%;
+  position: relative;
+  float: left;
 }
+/*.description {
+}*/
