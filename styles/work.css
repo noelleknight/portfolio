@@ -2,15 +2,20 @@
 .itemContainer {
   position: relative;
   display: inline-block;
+  background-color: red;
 
 }
-.folioImg {
-  margin-top: 2em;
+.canvas {
+  margin: .5em 0 .5em 0;
   position: relative;
   float: left;
-  width: 35%;
+  width: 40%;
+  padding-left: 13%;
 }
-.description {
+.photo {
+width: 100%}
+
+.copy {
   padding-left: 2em;
   margin-top: 1em;
   width: 40%;
