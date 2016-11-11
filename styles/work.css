@@ -1,30 +1,31 @@
 
 .itemContainer {
+  margin: 0 13% 5% 13%;
   position: relative;
   display: inline-block;
-  background-color: #ADA59D;
-  /*color: white;*/
-
+  /*background-color: #ADA59D;*/
+  color: white;
+  height: 25em;
 }
+.copy{
+padding-left: 2em;
+margin-top: 1em;
+width: 40%;
+height: auto;
+position: relative;
+float: left;
+}
+
 .canvas {
   margin: .5em 0 .5em 0;
   position: relative;
   float: left;
   width: 40%;
-  padding-left: 13%;
 }
 .photo {
-width: 100%}
-
-.copy {
-  padding-left: 2em;
-  margin-top: 1em;
-  width: 40%;
-  height: auto;
-  position: relative;
-  float: left;
-  color: white;
+  max-width: 100%;
 }
+
 .stack{
   padding: 0;
   list-style: none;

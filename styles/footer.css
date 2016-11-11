@@ -1,15 +1,13 @@
 footer {
-height: 5em;
+height: 10em;
 width: 100%;
 bottom: -10px;
 opacity: 0.7;
 
 }
 .footer {
-  background-color: #846E74;
   height: 100%;
   width: 100%;
-  color: white;
   text-align: right;
 }
 #footerTxt {

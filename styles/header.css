@@ -1,15 +1,13 @@
 header {
-  background-color: black;
   margin: 0 auto;
 }
 
-.headContainr {
+.headContainer {
   background: url("../images/type.jpg") center no-repeat;
   width: 100%;
   height: 25em;
-  opacity: 0.8;
 }
-.headMenu {
+/*.headMenu {
   list-style: none;
   margin: 0 auto;
   padding-top: 2%;
@@ -21,4 +19,12 @@ float: left;
 .navTabs {
   padding: 1em;
   float: right;
+}*/
+
+.headNav {
+  height: 5em;
+  width: 100%;
+  top: -10px;
+  opacity: 0.7;
+  background-color: white;
 }
