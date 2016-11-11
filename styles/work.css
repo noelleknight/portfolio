@@ -2,7 +2,8 @@
 .itemContainer {
   position: relative;
   display: inline-block;
-  background-color: red;
+  background-color: #ADA59D;
+  /*color: white;*/
 
 }
 .canvas {
@@ -22,6 +23,7 @@ width: 100%}
   height: auto;
   position: relative;
   float: left;
+  color: white;
 }
 .stack{
   padding: 0;
