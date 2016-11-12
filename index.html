@@ -16,9 +16,9 @@
     <div class="headNav">
       <ul class="headMenu">
         <li> <p class="headName">Noelle Knight</p> </li>
-        <li class="navTabs toAbout"> <p onclick="navigate()" >ABOUT</p></li>
-        <li class="navTabs"> <p>PORTFOLIO</p> </li>
-        <li class="navTabs"> <p>CONTACT</p> </li>
+        <li class="navTabs"> <a href="#aboutMe"> ABOUT</a></li>
+        <li class="navTabs"> <a href ="#portfolio">PORTFOLIO</a> </li>
+        <li class="navTabs"> <a href="#contactMe">CONTACT</a> </li>
       </ul>
     </div>
     <div class="headContainer">
@@ -26,12 +26,12 @@
     </div>
   </header>
   <main class ="main">
-    <section class="about">
+    <section class="about" id="aboutMe">
       <h4 class="hello cursive"> Hello, I'm Noelle, I make beautiful things...</h4>
       <p id="introTxt">As a front end web developer, my goal is to create elegant and efficient web applications. I am a recent graduate of a bootcamp style program at the Iron Yard. I'm constantly exploring new approaches and learning how to make things work as seamlessly as possible. When I'm not coding, I pass my time by teaching yoga and reading. I'm always looking for interesting projects to work on, so drop me a line if you'd like to collaborate. </p>
     </section>
 
-    <section class="work">
+    <section class="work" id ="portfolio">
       <h4 class="cursive myWork">My Work</h4>
       <div class="itemContainer">
         <div class="canvas">
@@ -56,7 +56,7 @@
 
 
 
-        <section class= "contact"></section>
+        <section class= "contact" id="contactMe"></section>
 
         <section class="contact">
 
@@ -65,6 +65,7 @@
 
       <footer>
         <div class="footer">
+          <i class="fa fa-github fa-5x" aria-hidden="true"></i>
 
         </div>
       </footer>
