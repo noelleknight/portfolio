@@ -1,5 +1,19 @@
 
 .imageGrid {
-  display: flex;
-  flex-wrap: wrap;
+width: 100%;
+}
+#popSci {
+  -webkit-filter: contrast(120%);
+  display: block;
+  width: 100%;
+}
+.square {
+  width: 100%;
+}
+.oneThird {
+  -webkit-filter: brightness(110%);
+  -webkit-filter: contrast(130%);
+  display: block;
+  width: 33.3%;
+  float: left;
 }
