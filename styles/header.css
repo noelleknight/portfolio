@@ -28,32 +28,33 @@ header {
   font-family: 'Open Sans' sans-serif;
   float: left;
 }
+
 .navTabs {
   font-size: 1.5em;
   font-family: 'Open Sans' sans-serif;
-  color:gray;
+  color:black;
   font-weight: bold;
   padding: 1em;
   float: right;
 }
 a:link {
     text-decoration: none;
-    color: gray;
+    color:black;
 }
 
 a:visited {
     text-decoration: none;
-    color: gray;
+    color: black;
 }
 
 a:hover {
-
+    color: #FF0000;
     text-decoration: underline;
 }
 
 a:active {
     text-decoration: underline;
-    color: gray;
+    color: black;
 }
 
 .headNav {
