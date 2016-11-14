@@ -9,6 +9,9 @@ z-index: 0;
   display: block;
   width: 100%;
 }
+img#popSci:hover{
+  opacity: 0.5;
+}
 .squares {
   width: 100%;
   z-index: 0;
@@ -21,6 +24,6 @@ z-index: 0;
   width: 33.3%;
   float: left;
 }
-div.overlay:hover {
-  opacity: 0.5;
-}
+/*div.overlay:hover {
+  /*opacity: 0.5;*/
+}*/
