@@ -22,18 +22,25 @@ header {
   padding-top: 2%;
 }
 .headName {
-float: left;
+  color:#FF0001;
+  font-weight: 900;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
 }
 .navTabs {
+  font-family: 'Open Sans', sans-serif;
+  color:#FF0001;
+  font-weight: 900;
   padding: 1em;
   float: right;
 }
 
 .headNav {
+  z-index: 10;
   position: fixed;
   height: 6em;
   width: 100%;
-  top: -10px;
-  /*opacity: 0.8;*/
+  top: 0;
+  opacity: 0.8;
   background-color: white;
 }
