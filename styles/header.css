@@ -31,28 +31,29 @@ header {
 .navTabs {
   font-size: 1.5em;
   font-family: 'Open Sans' sans-serif;
-  color:black;
+  color:gray;
   font-weight: bold;
   padding: 1em;
   float: right;
 }
 a:link {
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 a:visited {
     text-decoration: none;
-    color: black;
+    color: gray;
 }
 
 a:hover {
+
     text-decoration: underline;
 }
 
 a:active {
     text-decoration: underline;
-    color: black;
+    color: gray;
 }
 
 .headNav {

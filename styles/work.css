@@ -1,5 +1,6 @@
 
 .imageGrid {
+background-color: black;
 width: 100%;
 z-index: 0;
 }
@@ -8,8 +9,10 @@ z-index: 0;
   display: block;
   width: 100%;
 }
-.square {
+.squares {
   width: 100%;
+  z-index: 0;
+
 }
 .oneThird {
   -webkit-filter: brightness(110%);
@@ -17,4 +20,7 @@ z-index: 0;
   display: block;
   width: 33.3%;
   float: left;
+}
+div.overlay:hover {
+  opacity: 0.5;
 }
