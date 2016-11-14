@@ -2,12 +2,12 @@
 .cursive {
   font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
-  color: white;
+  color:gray ;
   margin-left: 13%;
   margin-right: 13%;
 }
 .main {
-  background-color: #846E74;
+  background-color: white;
 }
 .hello {
   margin-bottom: .5em;
@@ -19,5 +19,5 @@
   padding-left: 1.7em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
-  color: white;
+  color: gray ;
 }
