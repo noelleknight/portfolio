@@ -2,7 +2,7 @@
 .cursive {
   font-family: 'Dancing Script', cursive;
   font-size: 2.5em;
-  color:gray ;
+  color:#666666 ;
   margin-left: 13%;
   margin-right: 13%;
 }
@@ -12,12 +12,20 @@
 .hello {
   margin-bottom: .5em;
   margin-top: 0;
-  padding-top: 2em;
+  padding-top: 4em;
 }
 .introTxt {
-  margin: 5em 13% 5em 13%;
+  margin: 3em 13% 5em 13%;
   padding-left: 1.7em;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.2em;
   color: gray ;
+}
+
+.work{
+padding-top: 5em;
+}
+.contact{
+  position: relative;
+  margin-top: 40em;
 }

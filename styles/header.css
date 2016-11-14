@@ -4,7 +4,7 @@ header {
 
 .headContainer {
   width: 100%;
-  height: 40em;
+  height: 50em;
 }
 .imageContainer {
   background-image: url('../images/bannerImg.jpg');
@@ -22,6 +22,7 @@ header {
   padding-top: 1%;
 }
 .headName {
+  padding: 1em;
   font-weight: 900;
   font-size: 1.5em;
   color:black;

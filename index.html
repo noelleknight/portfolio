@@ -13,10 +13,10 @@
 
 <body>
 
-  <header>
+  <header id="header">
     <div class="headNav">
       <ul class="headMenu">
-        <li> <p class="headName">NK.</p> </li>
+        <li class="headName"> <a href="#header">NK.</a> </li>
         <li class="navTabs"> <a href="#contactMe" >CONTACT</a> </li>
         <li class="navTabs"> <a href ="#portfolio">PORTFOLIO</a> </li>
         <li class="navTabs"> <a href="#aboutMe"> ABOUT</a></li>
@@ -41,34 +41,61 @@
         <div class = "overlay">
           <img src="images/popSci.png" alt="" id= "popSci">
           <span class="project">
-            <h4 class="oneLine header"> SEQUENCE</h4>
+            <h4 class="oneLine header"> Popular Science</h4>
             <p class ="oneLine"> a blogging platform</p>
-            <a href="https://github.com/noelleknight/popular-science" class="button">code</a>
-            <a href="https://pop-sci.herokuapp.com/" class="button">site</a>
+            <a href="https://github.com/noelleknight/popular-science" target="_blank" class="button">code</a>
+            <a href="https://pop-sci.herokuapp.com/" target="_blank" class="button">site</a>
           </span>
         </div>
-        <div class= "imageGrid">
-          <div class = "overlay">
-            <img src="images/modJS.jpg" alt="" class= "oneThird">
-            <img src="images/randomRepo.png" alt="" class= "oneThird">
-            <img src="images/sequence.jpg" alt="" class = "oneThird">
-          </div>
-        </div>
-
-      </section>
-
-      <section class= "contact" id="contactMe">
-        <h4 class="cursive myWork">A little bit more about me...</h4>
-        <p id= "contactTxt" class= "introTxt"> I am a recent graduate of a bootcamp style program at the Iron Yard DC for front end development. When I'm not coding, I pass my time by teaching yoga and reading. I love building things and making awesome websites. I'm always looking for interesting projects to work on, so drop me a line if you'd like to collaborate. </p>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer">
-        <i class="fa fa-github fa-5x" aria-hidden="true"></i>
       </div>
-    </footer>
 
-    <script src="https://use.fontawesome.com/e800cdfa55.js"></script>
-  </body>
-  </html>
+      <div class= "imageGridTwo">
+        <div class = "overlayTwo oneThird">
+          <img src="images/modJS.jpg" alt=""  class="contrast" id="squareOne">
+          <span class="projectTwo">
+            <h4 class="oneLine header"> A Tech Blog</h4>
+            <p class ="oneLine"> my personal blog</p>
+            <a href="https://github.com/noelleknight/noelleknight.github.io" target="_blank" class="button">code</a>
+            <a href="http://noelleknight.github.io/" target="_blank" class="button">site</a>
+          </span>
+        </div>
+      </div>
+      <div class= "imageGridTwo">
+        <div class = "overlayTwo oneThird">
+          <img src="images/randomRepo.png" alt=""  class="contrast" id="squareOne">
+          <span class="projectThree">
+            <h4 class="oneLine header"> Octo Authors</h4>
+            <p class ="oneLine"> discover repo contributors </p>
+            <a href="https://github.com/noelleknight/noelleknight.github.io" target="_blank" class="button">code</a>
+            <a href="http://noelleknight.github.io/" target="_blank" class="button">site</a>
+          </span>
+        </div>
+      </div>
+      <div class= "imageGridTwo">
+        <div class = "overlayTwo oneThird">
+          <img src="images/sequence.jpg" alt="" id="squareOne">
+          <span class="projectFour">
+            <h4 class="oneLine header"> Sequence</h4>
+            <p class ="oneLine"> a tool to create <br>yoga sequences </p>
+            <a href="https://github.com/noelleknight/noelleknight.github.io" target="_blank" class="button">code</a>
+            <a href="http://noelleknight.github.io/" target="_blank" class="button">site</a>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class= "contact" id="contactMe">
+      <h4 class="cursive myWork">A little bit more about me...</h4>
+      <p id= "contactTxt" class= "introTxt"> I am a recent graduate of a bootcamp style program at the Iron Yard DC for front end development. When I'm not coding, I pass my time by teaching yoga and reading. I love building things and making awesome websites. I'm always looking for interesting projects to work on, so drop me a line if you'd like to collaborate. </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <i class="fa fa-github fa-5x" aria-hidden="true"></i>
+    </div>
+  </footer>
+
+  <script src="https://use.fontawesome.com/e800cdfa55.js"></script>
+</body>
+</html>
