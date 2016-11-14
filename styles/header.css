@@ -17,6 +17,7 @@ header {
   height: 100%;
 }
 .headMenu {
+
   list-style: none;
   margin: 0 auto;
   padding-top: 1%;
@@ -39,11 +40,13 @@ header {
   float: right;
 }
 a:link {
+
     text-decoration: none;
     color:black;
 }
 
 a:visited {
+  
     text-decoration: none;
     color: black;
 }
@@ -61,7 +64,7 @@ a:active {
 .headNav {
   z-index: 10;
   position: fixed;
-  height: 6em;
+  height: 5em;
   width: 100%;
   top: 0;
   opacity: 0.8;

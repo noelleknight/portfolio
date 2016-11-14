@@ -1,15 +1,36 @@
 footer {
+background-color: #DBF6F6;
 height: 10em;
 width: 100%;
 bottom: -10px;
 opacity: 0.7;
-
+border-top:
 }
 .footer {
+  color:#4FD5D6;
   height: 100%;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
-#footerTxt {
-  padding: 20px 10px 0 0;
+i{
+  margin: 1em;
+}
+.greenLink:link {
+    text-decoration: none;
+    color: #4FD5D6;
+}
+
+.greenLink:visited {
+    text-decoration: none;
+    color: #4FD5D6;
+}
+
+.greenLink:hover {
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.greenLink:active {
+    text-decoration: underline;
+    color: #4FD5D6;
 }
